@@ -1,8 +1,8 @@
 # Laravel PHPUnit Action
-A GitHub action to run your Laravel project's PHPUnit test suite.
+A GitHub action to run your Yii project's PHPUnit test suite.
 
 ## Usage
-You can quickly start using this on your Laravel projects to run your test suite whenever a new commit is pushed with a file like the following placed in `.github/workflows/test.yml`
+You can quickly start using this on your Yii projects to run your test suite whenever a new commit is pushed with a file like the following placed in `.github/workflows/test.yml`
 ```yaml
 name: Tests
 on: [push]
@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: nathanheffley/laravel-phpunit-action@master
+    - uses: inquid/laravel-phpunit-action@master
 ```
