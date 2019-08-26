@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: inquid/laravel-phpunit-action@master
+    - uses: inquid/yii-phpunit-action@master
 ```
