@@ -5,8 +5,8 @@ LABEL "com.github.actions.description"="A GitHub action to run your Yii project'
 LABEL "com.github.actions.icon"="check-circle"
 LABEL "com.github.actions.color"="orange"
 
-LABEL "repository"="https://github.com/inquid/laravel-phpunit-action"
-LABEL "homepage"="https://github.com/inquid/laravel-phpunit-action"
+LABEL "repository"="https://github.com/inquid/yii-phpunit-action"
+LABEL "homepage"="https://github.com/inquid/yii-phpunit-action"
 LABEL "maintainer"="Luis Gonzalez <contact@inquid.co>"
 
 ADD entrypoint.sh /entrypoint.sh
