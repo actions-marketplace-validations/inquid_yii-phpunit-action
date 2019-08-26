@@ -1,4 +1,4 @@
-# Laravel PHPUnit Action
+# Yii PHPUnit Action
 A GitHub action to run your Yii project's PHPUnit test suite.
 
 ## Usage
